@@ -1,5 +1,7 @@
+import static com.codeborne.selenide.Selenide.open;
+
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hi!");
+        open("https://www.citilink.ru/");
     }
 }
